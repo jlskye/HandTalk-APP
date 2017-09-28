@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手语“1+1”</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="menu_search">menu_search</string>
+    <string name="menu_favorite">menu_favorite</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+    <string name="title_activity_selectLesson">SelectLessonActivity</string>
+    <string name="title_activity_QuizActivity">QuizActivity</string>
+    <string name="title_activity_Quiz_Chapter_Activity">QuizChapterActivity</string>
+    <string name="title_activity_Quiz_Chapter_Activity_02">QuizChapterActivity_02</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    
+    <string name="quiz_title_01">称谓</string>
+    <string name="quiz_describe_01">本节主要涉及事物的称谓相关知识，例如：人 他 你 我</string>
+    <string name="quiz_chapter01_item01">人</string>
+    <string name="quiz_chapter01_item02">他</string>
+    <string name="quiz_chapter01_item03">你</string>
+    <string name="quiz_chapter01_item04">我</string>
+    <string name="quiz_chapter01_item05">大家</string>
+    <string name="quiz_chapter01_item06">们</string>
+    <string name="quiz_chapter01_item07">自己</string>
+    
+    <string name="quiz_title_02">心理感受</string>
+    <string name="quiz_describe_02">本节主要涉及人物的心理感受相关知识，例如：关心 喜欢 希望 平安</string>
+    <string name="quiz_chapter02_item01">关心</string>
+    <string name="quiz_chapter02_item02">喜欢</string>
+    <string name="quiz_chapter02_item03">希望</string>
+    <string name="quiz_chapter02_item04">平安</string>
+    <string name="quiz_chapter02_item05">幸福</string>
+    <string name="quiz_chapter02_item06">快乐</string>
+    <string name="quiz_chapter02_item07">愉快</string>
+    <string name="quiz_chapter02_item08">想念</string>
+    <string name="quiz_chapter02_item09">难过</string>
+
+    <string name="quiz_title_03">虚词</string>
+    <string name="quiz_describe_03">本节主要涉及汉语的虚词相关知识，例如：什么 和 合 因</string>
+    <string name="quiz_chapter03_item01">什么</string>
+    <string name="quiz_chapter03_item02">和</string>
+    <string name="quiz_chapter03_item03">合</string>
+    <string name="quiz_chapter03_item04">因</string>
+    <string name="quiz_chapter03_item05">为</string>
+    <string name="quiz_chapter03_item06">在</string>
+    <string name="quiz_chapter03_item07">根</string>
+    <string name="quiz_chapter03_item08">所</string>
+    <string name="quiz_chapter03_item09">以</string>
+    <string name="quiz_chapter03_item010">的</string>
+
+    <string name="quiz_title_04">事物特征</string>
+    <string name="quiz_describe_04">本节主要涉及事物的特征相关知识，例如：坏 大 好 宽</string>
+    <string name="quiz_chapter04_item01">坏</string>
+    <string name="quiz_chapter04_item02">大</string>
+    <string name="quiz_chapter04_item03">好</string>
+    <string name="quiz_chapter04_item04">宽</string>
+    <string name="quiz_chapter04_item05">窄</string>
+    <string name="quiz_chapter04_item06">小</string>
+    <string name="quiz_chapter04_item07">快</string>
+    <string name="quiz_chapter04_item08">慢</string>
+    <string name="quiz_chapter04_item09">长</string>
+    <string name="quiz_chapter04_item10">短</string>
+
+    <string name="quiz_title_05">时间</string>
+    <string name="quiz_describe_05">本节主要涉及时间相关知识，例如：今天 以前 以后 年</string>
+    <string name="quiz_chapter05_item01">今天</string>
+    <string name="quiz_chapter05_item02">以前</string>
+    <string name="quiz_chapter05_item03">以后</string>
+    <string name="quiz_chapter05_item04">年</string>
+    <string name="quiz_chapter05_item05">岁</string>
+    <string name="quiz_chapter05_item06">时间</string>
+    <string name="quiz_chapter05_item07">明天</string>
+    <string name="quiz_chapter05_item08">昨天</string>
+    <string name="quiz_chapter05_item09">现在</string>
+
+    <string name="quiz_title_06">常用动词</string>
+    <string name="quiz_describe_06">本节主要涉及事物的称谓相关知识，例如：是 事情 有 看</string>
+    <string name="quiz_chapter06_item01">是</string>
+    <string name="quiz_chapter06_item02">事情</string>
+    <string name="quiz_chapter06_item03">有</string>
+    <string name="quiz_chapter06_item04">看</string>
+    <string name="quiz_chapter06_item05">见</string>
+    <string name="quiz_chapter06_item06">观</string>
+    <string name="quiz_chapter06_item07">要</string>
+    <string name="quiz_chapter06_item08">需要</string>
+    <string name="quiz_chapter06_item09">说</string>
+    <string name="quiz_chapter06_item10">请</string>
+    <string name="quiz_chapter06_item11">让</string>
+    <string name="quiz_chapter06_item12">遇见</string>
+
+    <string name="quiz_title_07">生活用语</string>
+    <string name="quiz_describe_07">本节主要涉及人们的生活用语相关知识，例如：叫 喊 名字 哪里</string>
+    <string name="quiz_chapter07_item01">叫</string>
+    <string name="quiz_chapter07_item02">喊</string>
+    <string name="quiz_chapter07_item03">名字</string>
+    <string name="quiz_chapter07_item04">哪里</string>
+    <string name="quiz_chapter07_item05">对不起</string>
+    <string name="quiz_chapter07_item06">怎么样</string>
+    <string name="quiz_chapter07_item07">祝</string>
+    <string name="quiz_chapter07_item08">谢谢</string>
+
+</resources>

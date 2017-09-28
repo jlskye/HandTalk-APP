@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_header"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="@drawable/background"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitStart"
+            android:maxHeight="30dp"
+            android:maxWidth="30dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_white"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView_wrod"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="当前单词"
+            android:textColor="#ffffffff"
+            android:textSize="30sp"/>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitStart"
+            android:maxHeight="30dp"
+            android:maxWidth="30dp"
+            android:adjustViewBounds="true"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_weight="60">
+
+        <LinearLayout
+            android:id="@+id/ll_glviewholder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="40"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="————————"
+                android:textColor="#ffacacac"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:layout_weight="2"/>
+            <ImageButton
+                android:id="@+id/btn_lastmotion"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_last"/>
+            <ImageButton
+                android:id="@+id/btn_replay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_again"/>
+            <ImageButton
+                android:id="@+id/btn_pause"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_stop"/>
+            <ImageButton
+                android:id="@+id/btn_nextmotion"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_next"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="————————"
+                android:textColor="#ffacacac"
+                android:gravity="left"
+                android:textSize="20dp"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dip"
+            android:orientation="horizontal"
+            android:layout_weight="4">
+
+            <Button
+                android:id="@+id/button_last"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/button_start"
+                android:text="上一词"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/btn_collect"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/add_collection"/>
+
+            <ImageButton
+                android:id="@+id/btn_wrong"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffffff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/delete_mistake"/>
+
+            <Button
+                android:id="@+id/button_next"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/button_start"
+                android:text="下一词"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
